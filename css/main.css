@@ -127,6 +127,10 @@ textarea {
     text-align: center;
    }
 
+.cismodel-wrapper {
+
+        position:relative;
+    }
 
 
    .cismodel-logo img{
@@ -204,6 +208,36 @@ textarea {
     color: #f68e1e;
 }
 
+.cismodel-item.-orange {
+        position: absolute;
+        padding:0;
+        -webkit-animation-name: fadein;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+    }
+
+
+.cismodel-item.step-1 {
+        top:85px;
+        left:50%;
+        margin-left: -90px;
+        -webkit-animation-delay: .24s;
+    }
+
+    .cismodel-item.step-2 {
+        top:115px;
+        left:50%;
+        margin-left: -85px;
+        -webkit-animation-delay: .4s;
+    }
+
+    .cismodel-item.step-3 {
+        top:145px;
+        left:50%;
+        margin-left: -80px;
+        -webkit-animation-delay: .6s;
+    }
+
 .cismodel-item-text {
     display:block;
     font-size: .8em;
@@ -213,11 +247,15 @@ textarea {
     color:#7f8d96;
 }
 
+.-orange .cismodel-item-text {
+    display:none;
+}
+
 .cismodel-supports {
             list-style: none;
             
             padding:0;
-            margin:0 2em;
+            margin:0 2em 1em 2em;
             overflow: hidden;
             color:#00549f;
         }
@@ -258,10 +296,12 @@ textarea {
     margin:0 auto 3em auto;
    }
 
+   
+
     .cismodel-logo {
         position:absolute;
         top:-80px;
-        left:100px;
+        left:130px;
    }
 
     .cismodel-supports span {
@@ -331,18 +371,21 @@ textarea {
         top:20px;
         left:250px;
         -webkit-animation-delay: .24s;
+        margin-left: 0px;
     }
 
     .cismodel-item.step-2 {
         top:50px;
         left:255px;
         -webkit-animation-delay: .4s;
+        margin-left: 0px;
     }
 
     .cismodel-item.step-3 {
         top:80px;
         left:260px;
         -webkit-animation-delay: .6s;
+        margin-left: 0px;
     }
 
     .cismodel-item.step-4 {
@@ -433,11 +476,15 @@ textarea {
 
 @media screen and (min-width: 800px) {
 
-    .cismodel-item-text {
+    .cismodel-logo {
+        position:absolute;
+        top:-90px;
+        left:60px;
+   }
+
+    .cismodel-item-text, .-orange .cismodel-item-text  {
         display:block;
     }
-
-    
 
 
     .cismodel-wrapper {
