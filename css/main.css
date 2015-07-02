@@ -278,14 +278,16 @@ textarea {
             font-size: 14px;
             font-family: 'Bebas Neue';
             font-weight: 700;
-            width:50%;
-            float:left;
         }
 
 
 
 @media screen and (min-width: 480px) {
 
+.cismodel-supports li {
+            width:50%;
+            float:left;
+        }
 
     
 }
