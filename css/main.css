@@ -112,7 +112,7 @@ textarea {
 
 
    h1 {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
     font-weight: 700;
     text-align: center;
     color: #00539e;
@@ -164,7 +164,7 @@ textarea {
    }
 
 .cismodel-item-number {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
     font-weight: 700;
     font-size: 1em;
     width:1em;
@@ -192,7 +192,7 @@ textarea {
 }
 
 .cismodel-item-heading {
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
     font-weight: 700;
     display: block;
     font-size: 1.2em;
@@ -276,7 +276,7 @@ textarea {
         .cismodel-supports li {
             margin-bottom: .6em;
             font-size: 14px;
-            font-family: "Bebas Neue";
+            font-family: 'Bebas Neue';
             font-weight: 700;
             width:50%;
             float:left;
